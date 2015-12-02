@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/var/lib/autofs/ubx/pool_fs_d01/home'
+let g:netrw_dirhist_2='/var/lib/autofs/ubx/pool_fs_d01/home/nussbaum'
+let g:netrw_dirhist_3='/ubx/bronto/d03/adma/ReleaseTestGUT/lib'
+let g:netrw_dirhist_4='/ubx/bronto/d03/adma/ReleaseTestGUT/RxConfigs'
+let g:netrw_dirhist_5='/ubx/bronto/d03/adma/ReleaseTestGUT/TestConfigs/RF_02'
+let g:netrw_dirhist_6='/ubx/bronto/d03/adma/ReleaseTestGUT/TestConfigs'

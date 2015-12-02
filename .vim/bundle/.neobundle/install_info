@@ -1,0 +1,2 @@
+3.0
+{'neobundle.vim': {'checked_time': 1435902909, 'installed_uri': 'https://github.com/Shougo/neobundle.vim.git', 'installed_path': '/var/lib/autofs/ubx/pool_fs_d01/home/martinezgomez/.vim/bundle/neobundle.vim', 'revisions': {}, 'updated_time': 1435902909}, 'ack.vim': {'checked_time': 1435902911, 'installed_uri': 'https://github.com/mileszs/ack.vim.git', 'installed_path': '/var/lib/autofs/ubx/pool_fs_d01/home/martinezgomez/.vim/bundle/ack.vim', 'revisions': {'1433592282': '923507cadc0b8b73b238db67a28a7ed00194f319'}, 'updated_time': '1433592282'}}
