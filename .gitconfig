@@ -1,0 +1,34 @@
+[push]
+    default = simple
+[user]
+    email = adrian4.estu@gmail.com
+    name = Adrian MaGo
+[alias]
+    ci = commit
+    co = checkout
+    st = status
+    pul = pull
+    pus = push
+    br = branch
+    l = log --pretty=format:'%Cgreen%<(20)%an%Creset -- %s' --graph
+    ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate --date=relative --graph
+    lt = log --graph --simplify-by-decoration --pretty=format:'%d' --all
+    svnci = !"git stash save && git svn dcommit --interactive ; git stash pop"
+    svnlog = svn log --oneline --show-commit
+    d = diff --word-diff
+    dd = difftool --dir-diff
+    blep = !"sh -c 'git grep -n $1 | while IFS=: read i j k; do git blame -L $j,$j $i | cat; done' $@"
+    branch-age = for-each-ref --sort=-committerdate --format='%(refname:short)    %(committerdate:short)'
+[color]
+    ui = true
+[color "status"]
+    added = green bold
+    changed = yellow bold
+    untracked = red bold
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[core]
+    pager = less -i -x4 -+C -S
+    autocrlf = true
