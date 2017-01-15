@@ -2,7 +2,7 @@
     default = simple
 [user]
     email = adrian4.estu@gmail.com
-    name = Adrian MaGo
+    name = adrianma
 [alias]
     ci = commit
     co = checkout
@@ -17,6 +17,7 @@
     svnlog = svn log --oneline --show-commit
     d = diff --word-diff
     dd = difftool --dir-diff
+    diffc = diff --cached
     blep = !"sh -c 'git grep -n $1 | while IFS=: read i j k; do git blame -L $j,$j $i | cat; done' $@"
     branch-age = for-each-ref --sort=-committerdate --format='%(refname:short)    %(committerdate:short)'
 [color]
