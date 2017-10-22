@@ -122,3 +122,5 @@ fi
 
 # disable the annoying bell sound!
 bind "set bell-style none"
+
+export PATH=$PATH:/home/cheroka4/.local/bin
