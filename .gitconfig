@@ -17,7 +17,7 @@
     svnlog = svn log --oneline --show-commit
     d = diff --word-diff
     dd = difftool --dir-diff
-    diffc = diff --cached
+    dc = diff --cached
     blep = !"sh -c 'git grep -n $1 | while IFS=: read i j k; do git blame -L $j,$j $i | cat; done' $@"
     branch-age = for-each-ref --sort=-committerdate --format='%(refname:short)    %(committerdate:short)'
 [color]
@@ -32,4 +32,5 @@
     prompt = false
 [core]
     pager = less -i -x4 -+C -S
-    autocrlf = true
+    autocrlf = false
+    editor = vim
